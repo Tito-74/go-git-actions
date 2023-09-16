@@ -1,4 +1,4 @@
-name:go-github-actions
+name: go-github-actions
 
 on:
   push:
