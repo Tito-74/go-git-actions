@@ -1,0 +1,13 @@
+name:go-github-actions
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  goGit:
+    runs-on: ubuntu-18.04
+    steps:
+    -name: Go Git
+      run: "Go Git"
