@@ -9,5 +9,5 @@ jobs:
   goGit:
     runs-on: ubuntu-18.04
     steps:
-    -name: Go Git
+    - name: Go Git
       run: echo "Go Git"
