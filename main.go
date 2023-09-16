@@ -1,7 +1,15 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/google/uuid"
+)
 
 func main() {
-	fmt.Println("Hey Tito, Its, gonna be alright")
+	uuidWithHyphen, err := uuid.NewRandom()
+	if err != nil {
+		fmt.Println(err)
+	}
+	fmt.Println("Hey Tito, Its, gonna be alright %v", uuidWithHyphen)
 }
