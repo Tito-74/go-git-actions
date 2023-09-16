@@ -7,7 +7,7 @@ on:
 
 jobs:
   goGit:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
     - name: Go Git
       run: echo "Go Git"
